@@ -1,6 +1,6 @@
 {
   "name": "react-packery-mixin",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "./lib/index",
   "description": "A packery mixin for React.js",
   "dependencies": {
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/eiriklv/react-masonry-mixin.git"
+    "url": "git://github.com/eiriklv/react-packery-mixin.git"
   },
   "keywords": [
     "react",
