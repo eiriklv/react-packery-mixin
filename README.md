@@ -2,7 +2,7 @@ React Packery Mixin
 ===================
 
 #### Introduction:
-A mixin for React.js to use Metafizzy Packery
+A mixin for React.js to use Metafizzy Packery (Also available as a [component](https://github.com/eiriklv/react-packery-component) - you should use that instead!)
 
 #### Which version should I use?
 React Packery Mixin 0.2.x is compatible with React 0.14 and above only. For older versions of React, use a 0.1.x version of React Packery Mixin.
@@ -23,22 +23,22 @@ React Packery Mixin 0.2.x is compatible with React 0.14 and above only. For olde
 
 ```js
 /** @jsx React.DOM */
- 
+
 'use strict';
- 
+
 var React = require('react');
- 
+
 var PackeryMixin = require('react-packery-mixin');
- 
+
 var packeryOptions = {
     transitionDuration: 0
 };
- 
+
 module.exports = React.createClass({
     displayName: 'SomeComponent',
- 
+
     mixins: [PackeryMixin('packeryContainer', packeryOptions)],
- 
+
     render: function () {
         var childElements = this.props.elements.map(function(element){
            return (
@@ -47,7 +47,7 @@ module.exports = React.createClass({
                 </div>
             );
         });
-        
+
         return (
             <div ref="packeryContainer">
                 {childElements}
