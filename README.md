@@ -4,6 +4,9 @@ React Packery Mixin
 #### Introduction:
 A mixin for React.js to use Metafizzy Packery
 
+#### Which version should I use?
+React Packery Mixin 0.2.x is compatible with React 0.14 and above only. For older versions of React, use a 0.1.x version of React Packery Mixin.
+
 #### Usage:
 
 * The mixin is bundled with packery, so no additional dependencies needed!
